@@ -9,8 +9,13 @@
 <body>
     <h1>INDEX PAGE</h1> 
     <a href="secpage">sec page</a><br><br>
-   
-
     <img src="{{url_for('static',filename='cars.jpeg')}}" alt="" >
+
+    <form action="" method="post">
+        <input type="text" name="name" placeholder="name" id=""><br><br>
+        <input type="text" name="age" placeholder="age" id=""><br><br>
+        <input type="text" name="email" placeholder="email" id=""><br><br>
+        <input type="submit" value="add">
+    </form>
 </body>
 </html>
